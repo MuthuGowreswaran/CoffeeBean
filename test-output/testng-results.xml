@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T18:28:49 IST" name="Suite" finished-at="2025-07-09T18:31:26 IST" duration-ms="157343">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-09T18:28:49 IST" name="Test" finished-at="2025-07-09T18:31:26 IST" duration-ms="157343">
+      <class name="salesforce.uitestcase.TC002_Edit_Lead">
+        <test-method is-config="true" signature="setFileName()[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:28:49 IST" name="setFileName" finished-at="2025-07-09T18:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:29:41 IST" name="setUpClass" finished-at="2025-07-09T18:29:41 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a785fd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:29:41 IST" name="startTestCase" finished-at="2025-07-09T18:29:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:29:42 IST" name="preCondition" finished-at="2025-07-09T18:29:59 IST" duration-ms="17190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="editLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:29:59 IST" name="editLeadTest" data-provider="fetchData" finished-at="2025-07-09T18:30:27 IST" duration-ms="28241" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muthu M]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari Balaji]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BGM]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:103)
+at com.framework.utils.Reporter.reportStep(Reporter.java:120)
+at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:619)
+at com.framework.selenium.salesforcepages.LeadPage.getToastMessage(LeadPage.java:34)
+at salesforce.uitestcase.TC002_Edit_Lead.editLeadTest(TC002_Edit_Lead.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLeadTest -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:30:27 IST" name="postCondition" finished-at="2025-07-09T18:30:40 IST" duration-ms="13414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:salesforce.uitestcase.TC002_Edit_Lead@d554c5f]" started-at="2025-07-09T18:30:40 IST" name="tearDownClass" finished-at="2025-07-09T18:30:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- salesforce.uitestcase.TC002_Edit_Lead -->
+      <class name="salesforce.uitestcase.TC003_Delete_Lead">
+        <test-method is-config="true" signature="setFileName()[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:28:49 IST" name="setFileName" finished-at="2025-07-09T18:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:30:40 IST" name="setUpClass" finished-at="2025-07-09T18:30:40 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a785fd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:30:40 IST" name="startTestCase" finished-at="2025-07-09T18:30:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:30:40 IST" name="preCondition" finished-at="2025-07-09T18:30:55 IST" duration-ms="14229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="deleteLeadTest(java.lang.String)[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:30:55 IST" name="deleteLeadTest" data-provider="fetchData" finished-at="2025-07-09T18:31:17 IST" duration-ms="22643" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muthu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[See the reporter for details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: See the reporter for details.
+at com.framework.utils.Reporter.reportStep(Reporter.java:103)
+at com.framework.utils.Reporter.reportStep(Reporter.java:120)
+at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:619)
+at com.framework.selenium.salesforcepages.LeadPage.getToastMessage(LeadPage.java:34)
+at salesforce.uitestcase.TC003_Delete_Lead.deleteLeadTest(TC003_Delete_Lead.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeadTest -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:31:17 IST" name="postCondition" finished-at="2025-07-09T18:31:26 IST" duration-ms="8652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:salesforce.uitestcase.TC003_Delete_Lead@15888343]" started-at="2025-07-09T18:31:26 IST" name="tearDownClass" finished-at="2025-07-09T18:31:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- salesforce.uitestcase.TC003_Delete_Lead -->
+      <class name="salesforce.uitestcase.TC001_Create_Lead">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:28:48 IST" name="startReport" finished-at="2025-07-09T18:28:49 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setFileName()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:28:49 IST" name="setFileName" finished-at="2025-07-09T18:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:28:49 IST" name="setUpClass" finished-at="2025-07-09T18:28:49 IST" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a785fd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:28:49 IST" name="startTestCase" finished-at="2025-07-09T18:28:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:28:50 IST" name="preCondition" finished-at="2025-07-09T18:29:08 IST" duration-ms="17948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="createLeadTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:29:08 IST" name="createLeadTest" data-provider="fetchData" finished-at="2025-07-09T18:29:26 IST" duration-ms="18274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muthu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BGM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:29:26 IST" name="postCondition" finished-at="2025-07-09T18:29:41 IST" duration-ms="15040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:29:41 IST" name="tearDownClass" finished-at="2025-07-09T18:29:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="endResult()[pri:0, instance:salesforce.uitestcase.TC001_Create_Lead@38467116]" started-at="2025-07-09T18:31:26 IST" name="endResult" finished-at="2025-07-09T18:31:27 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- salesforce.uitestcase.TC001_Create_Lead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

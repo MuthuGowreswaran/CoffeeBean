@@ -1,0 +1,21 @@
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\UserName enter successfully_20250709_183045_011.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Password enter successfully_20250709_183045_653.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Login clicked successfully_20250709_183054_956.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\App Launcher icon clicked Succesfully_20250709_183059_604.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\View All icon clicked Succesfully_20250709_183101_003.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Search app clicked Succesfully_20250709_183101_868.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\App selected Succesfully_20250709_183103_071.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Clicked on Expand button successfully_20250709_183107_206.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Clicked on Delete option successfully_20250709_183111_334.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Confirmed Delete action_20250709_183112_366.png'
+duration 2
+file 'C:\Users\dell\OneDrive - TestLeaf Software Solutions Private Limited\onedrive\OneDrive - TestLeaf Software Solutions Private Limited\Learnings\Selenium\selenium\MakiaFramework_ServiceNow\.\videoreport\delete Leads_20250709_183040\Confirmed Delete action_20250709_183112_366.png'

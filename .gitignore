@@ -1,1 +1,17 @@
+# Ignore binaries and heavy stuff
+ffmpeg.exe
+*.jar
+*.zip
+*.log
+*.mp4
+
+# Ignore build & output folders
 /target/
+/bin/
+/output/
+/build/
+
+# Eclipse & IDE stuff
+.classpath
+.project
+.settings/

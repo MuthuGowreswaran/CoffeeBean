@@ -1,5 +1,5 @@
 # Ignore video, test-output, reports
-videoreport/
+#videoreport/
 test-output/
 reports/
 ffmpeg_sof/ffmpeg.exe

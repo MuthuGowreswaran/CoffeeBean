@@ -1,17 +1,16 @@
-# Ignore binaries and heavy stuff
-ffmpeg.exe
-*.jar
-*.zip
-*.log
-*.mp4
+# Ignore video, test-output, reports
+videoreport/
+test-output/
+reports/
+ffmpeg_sof/ffmpeg.exe
 
-# Ignore build & output folders
+# Build folders
 /target/
 /bin/
-/output/
 /build/
 
-# Eclipse & IDE stuff
+# OS/IDE files
+.DS_Store
 .classpath
 .project
 .settings/
